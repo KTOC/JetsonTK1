@@ -15,7 +15,6 @@
 #include "opencv2/cudawarping.hpp"
 #include "opencv2/cudafeatures2d.hpp"
 #include "opencv2/cudaarithm.hpp"
-#include <opencv2/dnn.hpp>
 #include <fstream>
 #include <iostream>
 #include <cstdlib>
@@ -25,7 +24,6 @@
 using namespace std;
 using namespace cv;
 using namespace cv::cuda;
-using namespace cv::dnn;
 
 Rect cropRect(0,0,0,0);
 
